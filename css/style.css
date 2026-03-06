@@ -364,7 +364,17 @@ section:nth-of-type(even) {
     justify-content: center;
     flex-direction: column;
     color: var(--text-gray);
+}
+
+.image-placeholder {
     border: 2px dashed var(--border-color);
+}
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .image-placeholder i {
@@ -477,6 +487,13 @@ section:nth-of-type(even) {
 
 .staff-image {
     margin-bottom: var(--spacing-sm);
+}
+
+.staff-image img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .staff-image .image-placeholder {
