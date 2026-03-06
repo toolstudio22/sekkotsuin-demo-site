@@ -327,7 +327,7 @@ if ('IntersectionObserver' in window) {
 // コンソールメッセージ
 // ========================================
 
-console.log('%cさくら接骨院 Webサイト', 'color: #2C5F9F; font-size: 20px; font-weight: bold;');
+console.log('%cあやこ接骨院 Webサイト', 'color: #2C5F9F; font-size: 20px; font-weight: bold;');
 console.log('%c開発者の方へ: このサイトは教育目的で作成されています。', 'color: #666; font-size: 12px;');
 
 // ========================================
