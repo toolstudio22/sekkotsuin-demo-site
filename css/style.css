@@ -353,7 +353,12 @@ section:nth-of-type(even) {
     color: var(--text-light);
 }
 
-.about-image,
+.about-image {
+    border-radius: 10px;
+    overflow: hidden;
+    height: 400px;
+}
+
 .image-placeholder {
     background: var(--bg-light);
     border-radius: 10px;
@@ -364,9 +369,6 @@ section:nth-of-type(even) {
     justify-content: center;
     flex-direction: column;
     color: var(--text-gray);
-}
-
-.image-placeholder {
     border: 2px dashed var(--border-color);
 }
 
